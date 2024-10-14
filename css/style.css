@@ -82,7 +82,6 @@ a.butao{
     color: white;
 }
 main{
-    margin: 0 15px 0 15px;
     text-align: center;
 }
 /*================================
@@ -103,12 +102,15 @@ section.banner h2{
 }
 section.produto{
     background-color: #CBE4DE;
+    padding: 20px;
+    
 }
 section.produto p.p1{
     color: #888888;
 }
 section.produto h2{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
+    margin: 0 0 10px 0;
 }
 section.produto ul {
      display: flex;
@@ -121,4 +123,49 @@ section.produto ul li{
     border-radius: 15px;
     margin: 20px 0 0 0 ;
 }
-section.produto ul li i.
+section.produto ul li p{
+    color: #888888;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+section.produto ul li span{
+    background-color: #EFEFEF;
+    border-radius: 100%;
+    padding: 2px;
+    margin: 5px;
+}
+section.produto ul li h3{
+    margin: 5px;
+    font-size: 1.4rem;
+}
+section.s0 h4{
+    font-size: 1.7rem;
+    margin: 50px 0 0 0;
+}
+section.s0 p.ps5{
+    color: #888888;
+    margin: 15px 0 40px 0;
+}
+section.s0 div.d1{
+    display: flex;
+}
+section.s0 div h5{
+    font-size: 1.4rem;
+    margin: 100px 0px 0px 0px;
+}
+section.s0 div img {
+    margin: 40px;
+}
+section.s0 p {
+    color: #888888;
+}
+footer{
+    background-color: #CBE4DE;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+footer a.sou{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
